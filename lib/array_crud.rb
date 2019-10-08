@@ -21,13 +21,11 @@ end
 def remove_element_from_end_of_array(array)
 array = ["I", "am", "really", "learning", "arrays!"]
 array.pop()
-p array
 end
 
 def remove_element_from_start_of_array(array)
 array = ["wow", "I", "am", "really", "learning", "arrays!"]
 array.shift("wow")
-p arrray
 end
 
 
@@ -50,4 +48,5 @@ end
 def update_element_from_index(array, index_number, element)
 array= ["wow", "I", "am", "really", "learning", "arrays!"]
 array[4]="totally"
+p array 
 end
